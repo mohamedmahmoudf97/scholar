@@ -22,7 +22,7 @@ const ScenarioView: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl p-10 bg-white border border-gray-200 shadow-lg rounded-lg animate-fadeIn">
+    <div className="w-full max-w-md sm:max-w-2xl p-4 sm:p-10 bg-white border border-gray-200 shadow-lg rounded-lg animate-fadeIn">
       <QuestionComponent title={currentScenario.title} description={currentScenario.description} />
       
       <AnswerOptions 
